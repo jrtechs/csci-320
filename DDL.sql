@@ -1,9 +1,11 @@
+-- DDL Statements
+
 CREATE TABLE QUESTION
 (
     question_id INT NOT NULL PRIMARY KEY,
     text VARCHAR(100) NOT NULL,
     question_type VARCHAR(12) NOT NULL,
-    CONSTRAINT sex_type CHECK
+    CONSTRAINT question_constraint_type CHECK
         ( question_type IN ('WORKER', 'DRIVER', 'LIFE_OUTLOOK'))
 );
 
@@ -18,6 +20,7 @@ CREATE TABLE OCCUPATION
   occupation_id INT NOT NULL PRIMARY KEY,
   occupation_type VARCHAR(20) NOT NULL
 );
+
 
 CREATE TABLE REGION
 (
@@ -58,3 +61,22 @@ CREATE TABLE PERSON_QUESTION_ANSWER
     FOREIGN KEY (question_id) REFERENCES QUESTION (question_id),
     FOREIGN KEY (response_id) REFERENCES RESPONSE (response_id)
 );
+
+-- Insert Statements ---
+
+-- Questions Table
+
+
+-- Response Table
+
+-- Occupation Table
+
+-- Region Table
+
+
+-- State Table
+
+-- Respondent Table
+
+-- Person_questions_answer Table
+
