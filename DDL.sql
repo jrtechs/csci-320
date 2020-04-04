@@ -3,7 +3,7 @@
 CREATE TABLE QUESTION
 (
     question_id INT NOT NULL PRIMARY KEY,
-    text VARCHAR(100) NOT NULL,
+    text VARCHAR(200) NOT NULL,
     question_type VARCHAR(12) NOT NULL,
     CONSTRAINT question_constraint_type CHECK
         ( question_type IN ('WORKER', 'DRIVER', 'LIFE_OUTLOOK'))
@@ -65,9 +65,16 @@ CREATE TABLE PERSON_QUESTION_ANSWER
 -- Insert Statements ---
 
 -- Questions Table
+INSERT INTO QUESTION (question_id, text, question_type) values (1, 'All in all, are you satisfied or disatisfied with the way things are going in your country?', 'LIFE_OUTLOOK');
+INSERT INTO QUESTION (question_id, text, question_type) values (2, 'How many miles have you driven in the past 12 months?', 'DRIVER');
+INSERT INTO QUESTION (question_id, text, question_type) values (3, 'On what step would you say you stood five years ago?', 'LIFE_OUTLOOK');
+INSERT INTO QUESTION (question_id, text, question_type) values (4, 'DO you like to drive or do you consider it a chore?', 'DRIVER');
+INSERT INTO QUESTION (question_id, text, question_type) values (5, 'Overall, how satisfied are you with your job?', 'WORKER');
 
 
 -- Response Table
+
+INSERT INTO RESPONSE ()
 
 -- Occupation Table
 
