@@ -74,7 +74,17 @@ INSERT INTO QUESTION (question_id, text, question_type) values (5, 'Overall, how
 
 -- Response Table
 
-INSERT INTO RESPONSE ()
+INSERT INTO RESPONSE (response_id, answer) values (1, '1');
+INSERT INTO RESPONSE (response_id, answer) values (2, '2');
+INSERT INTO RESPONSE (response_id, answer) values (3, '3');
+INSERT INTO RESPONSE (response_id, answer) values (4, '4');
+INSERT INTO RESPONSE (response_id, answer) values (5, '5');
+INSERT INTO RESPONSE (response_id, answer) values (6, '6');
+INSERT INTO RESPONSE (response_id, answer) values (7, '7');
+INSERT INTO RESPONSE (response_id, answer) values (8, '8');
+INSERT INTO RESPONSE (response_id, answer) values (9, '9');
+INSERT INTO RESPONSE (response_id, answer) values (10, '10');
+INSERT INTO RESPONSE (response_id, answer) values (11, 'n/a');
 
 -- Occupation Table
 
