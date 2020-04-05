@@ -79,7 +79,10 @@ INSERT INTO RESPONSE ()
 -- Occupation Table
 
 -- Region Table
-
+INSERT INTO REGION (region_id, name) VALUES (1, 'Northeast');
+INSERT INTO REGION (region_id, name) VALUES (2, 'Midwest');
+INSERT INTO REGION (region_id, name) VALUES (3, 'South');
+INSERT INTO REGION (region_id, name) VALUES (4, 'West');
 
 -- State Table
 
