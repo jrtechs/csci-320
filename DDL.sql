@@ -88,6 +88,18 @@ INSERT INTO RESPONSE (response_id, answer) values (11, 'n/a');
 
 -- Occupation Table
 
+INSERT INTO OCCUPATION (occupation_id, occupation_type) values (1, 'PROFESSIONAL WORKER');
+INSERT INTO OCCUPATION (occupation_id, occupation_type) values (2, 'MANAGER, EXECUTIVE');
+INSERT INTO OCCUPATION (occupation_id, occupation_type) values (3, 'BUSINESS OWNER');
+INSERT INTO OCCUPATION (occupation_id, occupation_type) values (4, 'CLERICAL OR OFFICE WORKER');
+INSERT INTO OCCUPATION (occupation_id, occupation_type) values (5, 'SALES WORKER');
+INSERT INTO OCCUPATION (occupation_id, occupation_type) values (6, 'SALES REPRESENTATIVE');
+INSERT INTO OCCUPATION (occupation_id, occupation_type) values (7, 'SERVICE WORKER');
+INSERT INTO OCCUPATION (occupation_id, occupation_type) values (8, 'SKILLED TRADE OR CRAFT');
+INSERT INTO OCCUPATION (occupation_id, occupation_type) values (9, 'SEMI-SKILLED');
+INSERT INTO OCCUPATION (occupation_id, occupation_type) values (10, 'LABORER');
+INSERT INTO OCCUPATION (occupation_id, occupation_type) values (11, 'OTHER');
+
 -- Region Table
 
 
