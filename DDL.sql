@@ -107,21 +107,25 @@ INSERT INTO REGION (region_id, name) VALUES (3, 'South');
 INSERT INTO REGION (region_id, name) VALUES (4, 'West');
 
 -- State Table
-INSERT INTO STATE VALUES ('1', 'Alabama', 3);
-INSERT INTO STATE VALUES ('4', 'Arizona', 4);
-INSERT INTO STATE VALUES ('5', 'Arkansas', 3);
-INSERT INTO STATE VALUES ('6', 'California', 4);
-INSERT INTO STATE VALUES ('8', 'Colorado', 4);
-INSERT INTO STATE VALUES ('9', 'Connecticut', 1);
-INSERT INTO STATE VALUES ('18', 'Indiana', 2);
-INSERT INTO STATE VALUES ('39', 'Ohio', 2);
-INSERT INTO STATE VALUES ('26', 'Michigan', 2);
-INSERT INTO STATE VALUES ('45', 'South Carolina', 3);
-INSERT INTO STATE VALUES ('36', 'New York', 1);
-INSERT INTO STATE VALUES ('42', 'Pennsylvania', 1);
+INSERT INTO STATE (state_id, name, region_id) VALUES (1, 'Alabama', 3);
+INSERT INTO STATE (state_id, name, region_id) VALUES (4, 'Arizona', 4);
+INSERT INTO STATE (state_id, name, region_id) VALUES (5, 'Arkansas', 3);
+INSERT INTO STATE (state_id, name, region_id) VALUES (6, 'California', 4);
+INSERT INTO STATE (state_id, name, region_id) VALUES (8, 'Colorado', 4);
+INSERT INTO STATE (state_id, name, region_id) VALUES (9, 'Connecticut', 1);
+INSERT INTO STATE (state_id, name, region_id) VALUES (18, 'Indiana', 2);
+INSERT INTO STATE (state_id, name, region_id) VALUES (39, 'Ohio', 2);
+INSERT INTO STATE (state_id, name, region_id) VALUES (26, 'Michigan', 2);
+INSERT INTO STATE (state_id, name, region_id) VALUES (45, 'South Carolina', 3);
+INSERT INTO STATE (state_id, name, region_id) VALUES (36, 'New York', 1);
+INSERT INTO STATE (state_id, name, region_id) VALUES (42, 'Pennsylvania', 1);
 
 -- Respondent Table
-INSERT INTO RESPONDENT (respondent_id, sex, age, community_type, state_id, occupation_id) VALUES (1001, 'F', );
+INSERT INTO RESPONDENT (respondent_id, sex, age, community_type, state_id, occupation_id) VALUES (1001, 'F', 43, 'R', 39,);
+INSERT INTO RESPONDENT (respondent_id, sex, age, community_type, state_id, occupation_id) VALUES (1002, 'F', 18, 'S', 26,);
+INSERT INTO RESPONDENT (respondent_id, sex, age, community_type, state_id, occupation_id) VALUES (1003, 'F', 69, 'R', 45,);
+INSERT INTO RESPONDENT (respondent_id, sex, age, community_type, state_id, occupation_id) VALUES (1004, 'F', 44, 'U', 36,);
+INSERT INTO RESPONDENT (respondent_id, sex, age, community_type, state_id, occupation_id) VALUES (1005, 'F', 32, 'S', 42,);
 
 
 -- Person_questions_answer Table
