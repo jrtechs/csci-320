@@ -126,3 +126,8 @@ INSERT INTO RESPONDENT (respondent_id, sex, age, community_type, state_id, occup
 
 -- Person_questions_answer Table
 
+INSERT INTO PERSON_QUESTION_ANSWER (respondent_id, question_id, response_id) VALUES (1001, 1, 2);
+INSERT INTO PERSON_QUESTION_ANSWER (respondent_id, question_id, response_id) VALUES (1001, 3, 8);
+INSERT INTO PERSON_QUESTION_ANSWER (respondent_id, question_id, response_id) VALUES (1002, 3, 4);
+INSERT INTO PERSON_QUESTION_ANSWER (respondent_id, question_id, response_id) VALUES (1002, 4, 2);
+INSERT INTO PERSON_QUESTION_ANSWER (respondent_id, question_id, response_id) VALUES (1002, 5, 11);
