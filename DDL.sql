@@ -18,7 +18,7 @@ CREATE TABLE RESPONSE
 CREATE TABLE OCCUPATION
 (
   occupation_id INT NOT NULL PRIMARY KEY,
-  occupation_type VARCHAR(20) NOT NULL
+  occupation_type VARCHAR(40) NOT NULL
 );
 
 
