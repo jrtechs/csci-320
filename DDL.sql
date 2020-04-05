@@ -121,15 +121,14 @@ INSERT INTO STATE (state_id, name, region_id) VALUES (36, 'New York', 1);
 INSERT INTO STATE (state_id, name, region_id) VALUES (42, 'Pennsylvania', 1);
 
 -- Respondent Table
-INSERT INTO RESPONDENT (respondent_id, sex, age, community_type, state_id, occupation_id) VALUES (1001, 'F', 43, 'R', 39,);
-INSERT INTO RESPONDENT (respondent_id, sex, age, community_type, state_id, occupation_id) VALUES (1002, 'F', 18, 'S', 26,);
-INSERT INTO RESPONDENT (respondent_id, sex, age, community_type, state_id, occupation_id) VALUES (1003, 'F', 69, 'R', 45,);
-INSERT INTO RESPONDENT (respondent_id, sex, age, community_type, state_id, occupation_id) VALUES (1004, 'F', 44, 'U', 36,);
-INSERT INTO RESPONDENT (respondent_id, sex, age, community_type, state_id, occupation_id) VALUES (1005, 'F', 32, 'S', 42,);
+INSERT INTO RESPONDENT (respondent_id, sex, age, community_type, state_id, occupation_id) VALUES (1001, 'F', 43, 'R', 39, 1);
+INSERT INTO RESPONDENT (respondent_id, sex, age, community_type, state_id, occupation_id) VALUES (1002, 'F', 18, 'S', 26, NULL);
+INSERT INTO RESPONDENT (respondent_id, sex, age, community_type, state_id, occupation_id) VALUES (1003, 'F', 69, 'R', 45, NULL);
+INSERT INTO RESPONDENT (respondent_id, sex, age, community_type, state_id, occupation_id) VALUES (1004, 'F', 44, 'U', 36, 5);
+INSERT INTO RESPONDENT (respondent_id, sex, age, community_type, state_id, occupation_id) VALUES (1005, 'F', 32, 'S', 42, 10);
 
 
 -- Person_questions_answer Table
-
 INSERT INTO PERSON_QUESTION_ANSWER (respondent_id, question_id, response_id) VALUES (1001, 1, 2);
 INSERT INTO PERSON_QUESTION_ANSWER (respondent_id, question_id, response_id) VALUES (1001, 3, 8);
 INSERT INTO PERSON_QUESTION_ANSWER (respondent_id, question_id, response_id) VALUES (1002, 3, 4);
